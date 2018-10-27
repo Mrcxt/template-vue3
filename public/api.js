@@ -1,0 +1,1 @@
+window.BASE_URL = 'http://xxxxxx' // 自定义配置接口
