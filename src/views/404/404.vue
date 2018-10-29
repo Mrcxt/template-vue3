@@ -1,12 +1,16 @@
 <template>
-    <div class="not-found wh">
-        <h1>网页不存在</h1>
-        <section class="error-container">
-            <span>4</span>
-            <span><span class="screen-reader-text">0</span></span>
-            <span>4</span>
-        </section>
+  <div class="not-found wh">
+    <h1>网页不存在</h1>
+    <section class="error-container">
+      <span>4</span>
+      <span><span class="screen-reader-text">0</span></span>
+      <span>4</span>
+    </section>
+    <div>
+      <el-button type="primary">返回上一页</el-button>
+      <el-button type="primary">返回首页</el-button>
     </div>
+  </div>
 </template>
 
 <script>
@@ -21,19 +25,15 @@ export default {};
   background-color: #416475;
   color: #92a4ad;
   .error-container {
-    margin: 20px 15px;
     text-align: center;
     font-weight: 800;
     font-size: 180px;
     font-family: "Catamaran", sans-serif;
     & > span {
       position: relative;
-      position: relative;
-      display: inline-block;
       display: inline-block;
       color: #ffb485;
       vertical-align: middle;
-      line-height: 0.7;
       &:nth-of-type(1) {
         color: #d1f2a5;
         animation: colordancing 4s infinite;
